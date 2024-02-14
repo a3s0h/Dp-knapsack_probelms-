@@ -29,7 +29,7 @@ public:
 
     if (prev != nullptr) {
         prev->next = temp->next;
-        delete(temp);  // Delete only if prev is not nullptr
+        // delete(temp);  // Delete only if prev is not nullptr
     } else {
         head = head->next;  // Update head if deleting the first node
         delete(temp);
