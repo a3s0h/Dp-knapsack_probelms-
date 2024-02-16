@@ -13,7 +13,7 @@ public:
             nums += to_string(i);
         }
 
-        string res;
+        string res="";
         k--; // Convert to 0-based indexing
 
         for (int i = n; i > 0; i--) {
