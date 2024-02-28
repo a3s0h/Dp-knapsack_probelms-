@@ -4,7 +4,7 @@ public:
         
         if(numRows == 1)return s;
         
-        vector<string> res(numRows,"");
+        vector<string> res(numRows+1,"");
         
         int index = 0 ;
         int n = s.size();
